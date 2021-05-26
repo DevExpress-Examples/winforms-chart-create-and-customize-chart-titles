@@ -6,8 +6,4 @@
 # How to add titles to a chart
 
 
-<p>This example demonstrates how <a href="http://devexpress.com/Help/Content.aspx?help=XtraCharts&document=CustomDocument5793.htm">chart titles</a> can be accessed and customized at runtime.</p>
-
-<br/>
-
-
+This example demonstrates how [chart titles](https://docs.devexpress.com/WindowsForms/5793/controls-and-libraries/chart-control/chart-titles) can be accessed and customized at runtime.
