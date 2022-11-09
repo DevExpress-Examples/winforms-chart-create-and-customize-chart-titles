@@ -5,7 +5,7 @@
 
 # Chart for WinForms - How to Create and Customize Chart Titles
 
-This example demonstrates how [chart titles](https://docs.devexpress.com/WindowsForms/5793/controls-and-libraries/chart-control/chart-titles) can be accessed and customized at runtime.
+This example demonstrates how to create and customize [chart titles](https://docs.devexpress.com/WindowsForms/5793/controls-and-libraries/chart-control/chart-titles) at runtime.
 
 ![Chart](images/Chart.png)
 
