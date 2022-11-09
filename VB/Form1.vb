@@ -1,8 +1,5 @@
-﻿Imports System
-Imports System.Drawing
-Imports System.Windows.Forms
+﻿Imports DevExpress.Drawing
 Imports DevExpress.XtraCharts
-' ...
 
 Namespace WindowsApplication25
     Partial Public Class Form1
@@ -34,12 +31,12 @@ Namespace WindowsApplication25
 
             ' Customize a title's appearance.
             chartTitle1.EnableAntialiasing = DevExpress.Utils.DefaultBoolean.True
-            chartTitle1.Font = New Font(Me.Font.FontFamily.Name, 14, FontStyle.Bold)
+            chartTitle1.DXFont = New DXFont("Tahoma", 14, DXFontStyle.Bold)
             chartTitle1.TextColor = Color.Red
             chartTitle1.Indent = 10
 
             ' Add the titles to the chart.
-            chartControl1.Titles.AddRange(New ChartTitle() { chartTitle1, chartTitle2})
+            chartControl1.Titles.AddRange(New ChartTitle() {chartTitle1, chartTitle2})
         End Sub
 
     End Class

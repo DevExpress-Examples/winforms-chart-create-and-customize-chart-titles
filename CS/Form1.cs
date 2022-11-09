@@ -1,8 +1,8 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using DevExpress.Drawing;
 using DevExpress.XtraCharts;
-// ...
 
 namespace WindowsApplication25 {
     public partial class Form1 : Form {
@@ -32,7 +32,7 @@ namespace WindowsApplication25 {
 
             // Customize a title's appearance.
             chartTitle1.EnableAntialiasing = DevExpress.Utils.DefaultBoolean.True;
-            chartTitle1.Font = new Font(this.Font.FontFamily.Name, 14, FontStyle.Bold);
+            chartTitle1.DXFont = new DXFont("Tahoma", 14, DXFontStyle.Bold);
             chartTitle1.TextColor = Color.Red;
             chartTitle1.Indent = 10;
 
@@ -41,6 +41,5 @@ namespace WindowsApplication25 {
                 chartTitle1,
                 chartTitle2});
         }
-
     }
 }

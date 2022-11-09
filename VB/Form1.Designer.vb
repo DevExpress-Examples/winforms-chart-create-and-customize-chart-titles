@@ -23,82 +23,82 @@
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
-            Dim series1 As New DevExpress.XtraCharts.Series()
-            Dim pieSeriesLabel1 As New DevExpress.XtraCharts.PieSeriesLabel()
-            Dim seriesPoint1 As New DevExpress.XtraCharts.SeriesPoint(1R, New Object() { (DirectCast(2R, Object))}, 0)
-            Dim seriesPoint2 As New DevExpress.XtraCharts.SeriesPoint(2R, New Object() { (DirectCast(3R, Object))}, 1)
-            Dim seriesPoint3 As New DevExpress.XtraCharts.SeriesPoint(4R, New Object() { (DirectCast(4R, Object))}, 2)
-            Dim seriesPoint4 As New DevExpress.XtraCharts.SeriesPoint(5R, New Object() { (DirectCast(3R, Object))}, 3)
-            Dim seriesPoint5 As New DevExpress.XtraCharts.SeriesPoint(6R, New Object() { (DirectCast(8R, Object))}, 4)
-            Dim seriesPoint6 As New DevExpress.XtraCharts.SeriesPoint(7R, New Object() { (DirectCast(5R, Object))}, 5)
-            Dim seriesPoint7 As New DevExpress.XtraCharts.SeriesPoint(8R, New Object() { (DirectCast(6R, Object))}, 6)
-            Dim seriesPoint8 As New DevExpress.XtraCharts.SeriesPoint(9R, New Object() { (DirectCast(4R, Object))}, 7)
-            Dim seriesPoint9 As New DevExpress.XtraCharts.SeriesPoint(10R, New Object() { (DirectCast(3R, Object))}, 8)
-            Dim seriesPoint10 As New DevExpress.XtraCharts.SeriesPoint(11R, New Object() { (DirectCast(2R, Object))}, 9)
-            Dim seriesPoint11 As New DevExpress.XtraCharts.SeriesPoint(12R, New Object() { (DirectCast(3R, Object))}, 10)
-            Dim seriesPoint12 As New DevExpress.XtraCharts.SeriesPoint(13R, New Object() { (DirectCast(2R, Object))}, 11)
-            Dim seriesPoint13 As New DevExpress.XtraCharts.SeriesPoint(14R, New Object() { (DirectCast(4R, Object))}, 12)
-            Dim seriesPoint14 As New DevExpress.XtraCharts.SeriesPoint(15R, New Object() { (DirectCast(5R, Object))}, 13)
-            Dim seriesPoint15 As New DevExpress.XtraCharts.SeriesPoint(16R, New Object() { (DirectCast(6R, Object))}, 14)
-            Dim seriesPoint16 As New DevExpress.XtraCharts.SeriesPoint(17R, New Object() { (DirectCast(3R, Object))}, 15)
-            Dim seriesPoint17 As New DevExpress.XtraCharts.SeriesPoint(18R, New Object() { (DirectCast(1R, Object))}, 16)
-            Dim seriesPoint18 As New DevExpress.XtraCharts.SeriesPoint(19R, New Object() { (DirectCast(3R, Object))}, 17)
-            Dim seriesPoint19 As New DevExpress.XtraCharts.SeriesPoint(20R, New Object() { (DirectCast(5R, Object))}, 18)
-            Dim seriesPoint20 As New DevExpress.XtraCharts.SeriesPoint(21R, New Object() { (DirectCast(1R, Object))}, 19)
-            Dim seriesPoint21 As New DevExpress.XtraCharts.SeriesPoint(22R, New Object() { (DirectCast(4R, Object))}, 20)
-            Dim pieSeriesView1 As New DevExpress.XtraCharts.PieSeriesView()
-            Dim sideBySideBarSeriesLabel1 As New DevExpress.XtraCharts.SideBySideBarSeriesLabel()
+            Dim Series1 As DevExpress.XtraCharts.Series = New DevExpress.XtraCharts.Series()
+            Dim PieSeriesLabel1 As DevExpress.XtraCharts.PieSeriesLabel = New DevExpress.XtraCharts.PieSeriesLabel()
+            Dim SeriesPoint1 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(1.0R, New Object() {CType(2.0R, Object)}, 0)
+            Dim SeriesPoint2 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(2.0R, New Object() {CType(3.0R, Object)}, 1)
+            Dim SeriesPoint3 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(4.0R, New Object() {CType(4.0R, Object)}, 2)
+            Dim SeriesPoint4 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(5.0R, New Object() {CType(3.0R, Object)}, 3)
+            Dim SeriesPoint5 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(6.0R, New Object() {CType(8.0R, Object)}, 4)
+            Dim SeriesPoint6 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(7.0R, New Object() {CType(5.0R, Object)}, 5)
+            Dim SeriesPoint7 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(8.0R, New Object() {CType(6.0R, Object)}, 6)
+            Dim SeriesPoint8 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(9.0R, New Object() {CType(4.0R, Object)}, 7)
+            Dim SeriesPoint9 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(10.0R, New Object() {CType(3.0R, Object)}, 8)
+            Dim SeriesPoint10 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(11.0R, New Object() {CType(2.0R, Object)}, 9)
+            Dim SeriesPoint11 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(12.0R, New Object() {CType(3.0R, Object)}, 10)
+            Dim SeriesPoint12 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(13.0R, New Object() {CType(2.0R, Object)}, 11)
+            Dim SeriesPoint13 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(14.0R, New Object() {CType(4.0R, Object)}, 12)
+            Dim SeriesPoint14 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(15.0R, New Object() {CType(5.0R, Object)}, 13)
+            Dim SeriesPoint15 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(16.0R, New Object() {CType(6.0R, Object)}, 14)
+            Dim SeriesPoint16 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(17.0R, New Object() {CType(3.0R, Object)}, 15)
+            Dim SeriesPoint17 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(18.0R, New Object() {CType(1.0R, Object)}, 16)
+            Dim SeriesPoint18 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(19.0R, New Object() {CType(3.0R, Object)}, 17)
+            Dim SeriesPoint19 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(20.0R, New Object() {CType(5.0R, Object)}, 18)
+            Dim SeriesPoint20 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(21.0R, New Object() {CType(1.0R, Object)}, 19)
+            Dim SeriesPoint21 As DevExpress.XtraCharts.SeriesPoint = New DevExpress.XtraCharts.SeriesPoint(22.0R, New Object() {CType(4.0R, Object)}, 20)
+            Dim PieSeriesView1 As DevExpress.XtraCharts.PieSeriesView = New DevExpress.XtraCharts.PieSeriesView()
+            Dim SideBySideBarSeriesLabel1 As DevExpress.XtraCharts.SideBySideBarSeriesLabel = New DevExpress.XtraCharts.SideBySideBarSeriesLabel()
             Me.chartControl1 = New DevExpress.XtraCharts.ChartControl()
-            DirectCast(Me.chartControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(series1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(pieSeriesLabel1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(pieSeriesView1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(sideBySideBarSeriesLabel1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.chartControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Series1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(PieSeriesLabel1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(PieSeriesView1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(SideBySideBarSeriesLabel1, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
-            ' 
-            ' chartControl1
-            ' 
+            '
+            'chartControl1
+            '
             Me.chartControl1.Dock = System.Windows.Forms.DockStyle.Fill
-            Me.chartControl1.Legend.Visibility = DevExpress.Utils.DefaultBoolean.False
+            Me.chartControl1.Legend.Visibility = DevExpress.Utils.DefaultBoolean.[False]
             Me.chartControl1.Location = New System.Drawing.Point(0, 0)
             Me.chartControl1.Name = "chartControl1"
             Me.chartControl1.PaletteName = "Opulent"
-            pieSeriesLabel1.LineVisibility = DevExpress.Utils.DefaultBoolean.True
-            series1.Label = pieSeriesLabel1
-            series1.LabelsVisibility = DevExpress.Utils.DefaultBoolean.False
-            series1.LegendTextPattern = "{A}: {VP:P0}"
-            series1.Name = "Series 1"
-            series1.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() { seriesPoint1, seriesPoint2, seriesPoint3, seriesPoint4, seriesPoint5, seriesPoint6, seriesPoint7, seriesPoint8, seriesPoint9, seriesPoint10, seriesPoint11, seriesPoint12, seriesPoint13, seriesPoint14, seriesPoint15, seriesPoint16, seriesPoint17, seriesPoint18, seriesPoint19, seriesPoint20, seriesPoint21})
-            series1.TopNOptions.Enabled = True
-            series1.TopNOptions.Mode = DevExpress.XtraCharts.TopNMode.ThresholdPercent
-            series1.TopNOptions.ShowOthers = False
-            series1.TopNOptions.ThresholdPercent = 7R
-            series1.TopNOptions.ThresholdValue = 5R
-            series1.View = pieSeriesView1
-            Me.chartControl1.SeriesSerializable = New DevExpress.XtraCharts.Series() { series1}
-            sideBySideBarSeriesLabel1.LineVisibility = DevExpress.Utils.DefaultBoolean.True
-            Me.chartControl1.SeriesTemplate.Label = sideBySideBarSeriesLabel1
+            PieSeriesLabel1.LineVisibility = DevExpress.Utils.DefaultBoolean.[True]
+            Series1.Label = PieSeriesLabel1
+            Series1.LabelsVisibility = DevExpress.Utils.DefaultBoolean.[False]
+            Series1.LegendTextPattern = "{A}: {VP:P0}"
+            Series1.Name = "Series 1"
+            Series1.Points.AddRange(New DevExpress.XtraCharts.SeriesPoint() {SeriesPoint1, SeriesPoint2, SeriesPoint3, SeriesPoint4, SeriesPoint5, SeriesPoint6, SeriesPoint7, SeriesPoint8, SeriesPoint9, SeriesPoint10, SeriesPoint11, SeriesPoint12, SeriesPoint13, SeriesPoint14, SeriesPoint15, SeriesPoint16, SeriesPoint17, SeriesPoint18, SeriesPoint19, SeriesPoint20, SeriesPoint21})
+            Series1.TopNOptions.Enabled = True
+            Series1.TopNOptions.Mode = DevExpress.XtraCharts.TopNMode.ThresholdPercent
+            Series1.TopNOptions.ShowOthers = False
+            Series1.TopNOptions.ThresholdPercent = 7.0R
+            Series1.TopNOptions.ThresholdValue = 5.0R
+            Series1.View = PieSeriesView1
+            Me.chartControl1.SeriesSerializable = New DevExpress.XtraCharts.Series() {Series1}
+            SideBySideBarSeriesLabel1.LineVisibility = DevExpress.Utils.DefaultBoolean.[True]
+            Me.chartControl1.SeriesTemplate.Label = SideBySideBarSeriesLabel1
             Me.chartControl1.Size = New System.Drawing.Size(520, 295)
             Me.chartControl1.TabIndex = 0
-            ' 
-            ' Form1
-            ' 
-            Me.AutoScaleDimensions = New System.Drawing.SizeF(6F, 13F)
+            '
+            'Form1
+            '
+            Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
             Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
             Me.ClientSize = New System.Drawing.Size(520, 295)
             Me.Controls.Add(Me.chartControl1)
             Me.Name = "Form1"
             Me.Text = "Form1"
-            DirectCast(pieSeriesLabel1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(pieSeriesView1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(series1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(sideBySideBarSeriesLabel1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.chartControl1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(PieSeriesLabel1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(PieSeriesView1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Series1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(SideBySideBarSeriesLabel1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.chartControl1, System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
 
         End Sub
 
-        #End Region
+#End Region
 
         Private chartControl1 As DevExpress.XtraCharts.ChartControl
     End Class
